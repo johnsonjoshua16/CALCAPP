@@ -4,6 +4,7 @@ print("Welcome to CALCAPP")
 
 
 print("The Order of Operations is addition, subtraction, multiplication, division, modulus, floor division, square root, power, logarithm, sine, cosine, tangent, mean, mode, median and range.")
+print("hyperbolic sine, hyperbolic cosine, hyperbolic tangent, hyperbolic arcsine, hyperbolic arccosine, hyperbolic arctangent")
 choice = input("Please choose a calculation from the list above: ")
 
 if choice == 'addition':
@@ -53,8 +54,27 @@ if choice == 'median':
     
 if choice == 'range':
     import rangeCALC # type: ignore
+    
+if choice == 'hyperbolic sine':
+    import hyperbolicsineCALC # type: ignore
+    
+if choice == 'hyperbolic cosine':
+    import hyperboliccosineCALC # type: ignore
+    
+if choice == 'hyperbolic tangent':
+    import hyperbolictangentCALC # type: ignore
+    
+if choice == 'hyperbolic arcsine':
+    import hyperbolicarcsineCALC # type: ignore
+    
+if choice == 'hyperbolic arccosine':
+    import hyperbolicarccosineCALC # type: ignore
+    
+if choice == 'hyperbolic arctangent':
+    import hyperbolicarctangentCALC # type: ignore
+    
 
-while choice not in ['addition', 'subtraction', 'multiplication', 'division', 'modulus', 'floor division', 'square root', 'power', 'logarithm', 'sine', 'cosine', 'tangent', 'mean', 'mode', 'median', 'range']:
+while choice not in ['addition', 'subtraction', 'multiplication', 'division', 'modulus', 'floor division', 'square root', 'power', 'logarithm', 'sine', 'cosine', 'tangent', 'mean', 'mode', 'median', 'range', 'hyperbolic sine', 'hyperbolic cosine', 'hyperbolic tangent', 'hyperbolic arcsine', 'hyperbolic arccosine', 'hyperbolic arctangent']:
     print("Invalid choice. Please try again.")
     choice = input("Please choose a calculation from the list above: ")
 print("Thank you for using CALCAPP!")
