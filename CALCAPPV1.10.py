@@ -1,5 +1,7 @@
 print("Welcome to CALCAPP")
 
+## This is still very much under development and is not a finished product. ##
+
 
 print("The Order of Operations is addition, subtraction, multiplication, division, modulus, floor division, square root, power, logarithm, sine, cosine and tangent.")
 choice = input("Please choose a calculation from the list above: ")
