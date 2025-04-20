@@ -12,3 +12,5 @@ result = logarithm_number(number, base)
 
 # Display the result
 print(f"The logarithm of {number} to the base {base} is {result}.")
+
+## Please let us know where improvements can be made. ##
