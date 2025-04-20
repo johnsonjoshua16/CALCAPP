@@ -24,22 +24,3 @@ In an increasingly interconnected world, security and ethical design are not opt
 The Future Awaits:
 The CALCAPP isn’t just a tool—it’s a gateway to limitless potential. It’s for the scientists unraveling the mysteries of the universe, the students shaping the future, the engineers building our world, and the everyday heroes tackling challenges big and small.
 This isn’t just the most advanced calculator ever seen—it’s your passport to what’s possible. With the CALCAPP, the only limit is your imagination.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
