@@ -79,7 +79,7 @@ while choice not in ['addition', 'subtraction', 'multiplication', 'division', 'm
     choice = input("Please choose a calculation from the list above: ")
 print("Thank you for using CALCAPP!")
 
-print("Make sure to come back next time! Goodbye!")
+print("Make sure to come back next time! Goodbye! ((Refer a friend))")
 
 ## Please let us know where improvements can be made. ##
     
