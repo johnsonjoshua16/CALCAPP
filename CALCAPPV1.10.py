@@ -45,5 +45,5 @@ while choice not in ['addition', 'subtraction', 'multiplication', 'division', 'm
     choice = input("Please choose a calculation from the list above: ")
 print("Thank you for using CALCAPP!")
 
-print("Goodbye!")
+print("Make sure to come back next time! Goodbye!")
     
