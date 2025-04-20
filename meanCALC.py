@@ -1,3 +1,4 @@
+
 # Now this is for Mean---------------------------------------------------------------
 def mean_numbers(numbers):
     return sum(numbers) / len(numbers)
@@ -9,4 +10,4 @@ numbers = list(map(float, input("Enter the numbers separated by spaces: ").split
 result = mean_numbers(numbers)
 
 #   Display the result
-print(f"The mean of the numbers is {result}.")
+print("The mean of the numbers is:", result)
