@@ -3,7 +3,7 @@ print("Welcome to CALCAPP")
 ## This is still very much under development and is not a finished product. ##
 
 
-print("The Order of Operations is addition, subtraction, multiplication, division, modulus, floor division, square root, power, logarithm, sine, cosine and tangent.")
+print("The Order of Operations is addition, subtraction, multiplication, division, modulus, floor division, square root, power, logarithm, sine, cosine, tangent, mean, mode, median and range.")
 choice = input("Please choose a calculation from the list above: ")
 
 if choice == 'addition':
@@ -41,8 +41,20 @@ if choice == 'cosine':
     
 if choice == 'tangent':
     import tangentCALC # type: ignore
+    
+if choice == 'mean':
+    import meanCALC # type: ignore
+    
+if choice == 'mode':
+    import modeCALC # type: ignore
 
-while choice not in ['addition', 'subtraction', 'multiplication', 'division', 'modulus', 'floor division', 'square root', 'power', 'logarithm', 'sine', 'cosine', 'tangent']:
+if choice == 'median':
+    import medianCALC # type: ignore
+    
+if choice == 'range':
+    import rangeCALC # type: ignore
+
+while choice not in ['addition', 'subtraction', 'multiplication', 'division', 'modulus', 'floor division', 'square root', 'power', 'logarithm', 'sine', 'cosine', 'tangent', 'mean', 'mode', 'median', 'range']:
     print("Invalid choice. Please try again.")
     choice = input("Please choose a calculation from the list above: ")
 print("Thank you for using CALCAPP!")
