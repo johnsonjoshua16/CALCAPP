@@ -74,9 +74,10 @@ if choice == 'hyperbolic arctangent':
     import hyperbolicarctangentCALC # type: ignore
     
 
-while choice not in ['addition', 'subtraction', 'multiplication', 'division', 'modulus', 'floor division', 'square root', 'power', 'logarithm', 'sine', 'cosine', 'tangent', 'mean', 'mode', 'median', 'range', 'hyperbolic sine', 'hyperbolic cosine', 'hyperbolic tangent', 'hyperbolic arcsine', 'hyperbolic arccosine', 'hyperbolic arctangent'].lower():
+while choice not in ['addition', 'subtraction', 'multiplication', 'division', 'modulus', 'floor division', 'square root', 'power', 'logarithm', 'sine', 'cosine', 'tangent', 'mean', 'mode', 'median', 'range', 'hyperbolic sine', 'hyperbolic cosine', 'hyperbolic tangent', 'hyperbolic arcsine', 'hyperbolic arccosine', 'hyperbolic arctangent']:
     print("Invalid choice. Please try again.")
     choice = input("Please choose a calculation from the list above: ")
+    print("Error34: Invalid response 560174081764805634856306450")
 print("Thank you for using CALCAPP!")
 
 print("Make sure to come back next time! Goodbye! ((Refer a friend))")
