@@ -1,4 +1,4 @@
-About UltimaCalc 9000:
+About CALCAPP:
 Welcome to the dawn of a new era in calculations. CALCAPP isn’t just a calculator—it’s a revolutionary leap forward in computational technology, engineered to redefine the way you approach numbers, problem-solving, and the very essence of mathematics itself.
 
 
