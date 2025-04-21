@@ -4,7 +4,7 @@ print("Welcome to CALCAPP")
 
 
 print("The Order of Operations is addition, subtraction, multiplication, division, modulus, floor division, square root, power, logarithm, sine, cosine, tangent, mean, mode, median and range.")
-print("hyperbolic sine, hyperbolic cosine, hyperbolic tangent, hyperbolic arcsine, hyperbolic arccosine, hyperbolic arctangent")
+print("hyperbolic sine, hyperbolic cosine, hyperbolic tangent, hyperbolic arcsine, hyperbolic arccosine, hyperbolic arctangent, sin inverse, cos inverse, tan inverse, radian conversion and degree conversion.")
 choice = input("Please choose a calculation from the list above: ")
 
 if choice == 'addition':
@@ -73,8 +73,23 @@ if choice == 'hyperbolic arccosine':
 if choice == 'hyperbolic arctangent':
     import hyperbolicarctangentCALC # type: ignore
     
+if choice == 'sin inverse':
+    import sininverseCALC # type: ignore
+    
+if choice == 'cos inverse':
+    import cosinverseCALC # type: ignore
+    
+if choice == 'tan inverse':
+    import taninverseCALC # type: ignore
+    
+if choice == 'radian conversion':
+    import radianCALC # type: ignore    
+    
+if choice == 'degree conversion':
+    import degreeCALC # type: ignore
+    
 
-while choice not in ['addition', 'subtraction', 'multiplication', 'division', 'modulus', 'floor division', 'square root', 'power', 'logarithm', 'sine', 'cosine', 'tangent', 'mean', 'mode', 'median', 'range', 'hyperbolic sine', 'hyperbolic cosine', 'hyperbolic tangent', 'hyperbolic arcsine', 'hyperbolic arccosine', 'hyperbolic arctangent']:
+while choice not in ['addition', 'subtraction', 'multiplication', 'division', 'modulus', 'floor division', 'square root', 'power', 'logarithm', 'sine', 'cosine', 'tangent', 'mean', 'mode', 'median', 'range', 'hyperbolic sine', 'hyperbolic cosine', 'hyperbolic tangent', 'hyperbolic arcsine', 'hyperbolic arccosine', 'hyperbolic arctangent', 'sin inverse', 'cos inverse', 'tan inverse', 'radian conversion', 'degree conversion']:
     print("Invalid choice. Please try again.")
     choice = input("Please choose a calculation from the list above: ")
     print("Error34: Invalid response 560174081764805634856306450")
