@@ -86,7 +86,7 @@ while choice not in ['addition', 'subtraction', 'multiplication', 'division', 'm
     print("Error34: Invalid response 560174081764805634856306450")
 print("Thank you for using CALCAPP!")
 
-print("Make sure to come back next time! Goodbye! ((Refer a friend))")
+print("Make sure to come back next time! Goodbye! ((Refer a friend)).")
 
 ## Please let us know where improvements can be made. ##
     
