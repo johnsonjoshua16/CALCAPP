@@ -83,10 +83,10 @@ if choice == 'tan inverse':
     import taninverseCALC # type: ignore
     
 if choice == 'radian conversion':
-    import radianCALC # type: ignore
+    import radianconversionCALC # type: ignore
     
 if choice == 'degree conversion':
-    import degreeCALC # type: ignore
+    import degreeconversionCALC # type: ignore
 
 
 while choice not in ['addition', 'subtraction', 'multiplication', 'division', 'modulus', 'floor division', 'square root', 'power', 'logarithm', 'sine', 'cosine', 'tangent', 'mean', 'mode', 'median', 'range', 'hyperbolic sine', 'hyperbolic cosine', 'hyperbolic tangent', 'hyperbolic arcsine', 'hyperbolic arccosine', 'hyperbolic arctangent', 'sin inverse', 'cos inverse', 'tan inverse', 'radian conversion', 'degree conversion']:
