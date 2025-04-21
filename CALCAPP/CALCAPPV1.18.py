@@ -1,5 +1,5 @@
 print("Welcome to CALCAPP")
-import MathMentorAI # type: ignore
+import CALCAPP.MathMentorAI as MathMentorAI # type: ignore
 # type: ignore3
 
 
@@ -11,76 +11,76 @@ print("hyperbolic sine, hyperbolic cosine, hyperbolic tangent, hyperbolic arcsin
 choice = input("Please choose a calculation from the list above: ")
 
 if choice == 'addition':
-    import addCALC # type: ignore
+    import CALCAPP.addCALC as addCALC # type: ignore
     
 if choice == 'subtraction':
-    import subtractCALC # type: ignore
+    import CALCAPP.subtractCALC as subtractCALC # type: ignore
     
 if choice == 'multiplication':
-    import multiplyCALC # type: ignore
+    import CALCAPP.multiplyCALC as multiplyCALC # type: ignore
     
 if choice == 'division':
-    import divideCALC # type: ignore
+    import CALCAPP.divideCALC as divideCALC # type: ignore
     
 if choice == 'modulus':
-    import modulusCALC # type: ignore
+    import CALCAPP.modulusCALC as modulusCALC # type: ignore
     
 if choice == 'floor division':
-    import floordivisionCALC # type: ignore
+    import CALCAPP.floordivisionCALC as floordivisionCALC # type: ignore
     
 if choice == 'square root':
-    import squarerootCALC # type: ignore
+    import CALCAPP.squarerootCALC as squarerootCALC # type: ignore
     
 if choice == 'power':
-    import powerCALC # type: ignore
+    import CALCAPP.powerCALC as powerCALC # type: ignore
     
 if choice == 'logarithm':
-    import logarithmCALC # type: ignore
+    import CALCAPP.logarithmCALC as logarithmCALC # type: ignore
     
 if choice == 'sine':
-    import sineCALC # type: ignore
+    import CALCAPP.sineCALC as sineCALC # type: ignore
     
 if choice == 'cosine':
-    import cosineCALC # type: ignore
+    import CALCAPP.cosineCALC as cosineCALC # type: ignore
     
 if choice == 'tangent':
-    import tangentCALC # type: ignore
+    import CALCAPP.tangentCALC as tangentCALC # type: ignore
     
 if choice == 'mean':
-    import meanCALC # type: ignore
+    import CALCAPP.meanCALC as meanCALC # type: ignore
     
 if choice == 'mode':
-    import modeCALC # type: ignore
+    import CALCAPP.modeCALC as modeCALC # type: ignore
 
 if choice == 'median':
-    import medianCALC # type: ignore
+    import CALCAPP.medianCALC as medianCALC # type: ignore
     
 if choice == 'range':
-    import rangeCALC # type: ignore
+    import CALCAPP.rangeCALC as rangeCALC # type: ignore
     
 if choice == 'hyperbolic sine':
-    import hyperbolicsineCALC # type: ignore
+    import CALCAPP.hyperbolicsineCALC as hyperbolicsineCALC # type: ignore
     
 if choice == 'hyperbolic cosine':
-    import hyperboliccosineCALC # type: ignore
+    import CALCAPP.hyperboliccosineCALC as hyperboliccosineCALC # type: ignore
     
 if choice == 'hyperbolic tangent':
-    import hyperbolictangentCALC # type: ignore
+    import CALCAPP.hyperbolictangentCALC as hyperbolictangentCALC # type: ignore
     
 if choice == 'hyperbolic arcsine':
-    import hyperbolicarcsineCALC # type: ignore
+    import CALCAPP.hyperbolicarcsineCALC as hyperbolicarcsineCALC # type: ignore
     
 if choice == 'hyperbolic arccosine':
-    import hyperbolicarccosineCALC # type: ignore
+    import CALCAPP.hyperbolicarccosineCALC as hyperbolicarccosineCALC # type: ignore
     
 if choice == 'hyperbolic arctangent':
-    import hyperbolicarctangentCALC # type: ignore
+    import CALCAPP.hyperbolicarctangentCALC as hyperbolicarctangentCALC # type: ignore
     
 if choice == 'radian conversion':
-    import radianconversionCALC # type: ignore
+    import CALCAPP.radianconversionCALC as radianconversionCALC # type: ignore
     
 if choice == 'degree conversion':
-    import degreeconversionCALC # type: ignore
+    import CALCAPP.degreeconversionCALC as degreeconversionCALC # type: ignore
 
 
 while choice not in ['addition', 'subtraction', 'multiplication', 'division', 'modulus', 'floor division', 'square root', 'power', 'logarithm', 'sine', 'cosine', 'tangent', 'mean', 'mode', 'median', 'range', 'hyperbolic sine', 'hyperbolic cosine', 'hyperbolic tangent', 'hyperbolic arcsine', 'hyperbolic arccosine', 'radian conversion', 'degree conversion']:
