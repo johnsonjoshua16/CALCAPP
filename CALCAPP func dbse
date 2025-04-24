@@ -1,0 +1,39 @@
+-- Example SQL script to create a table and insert data
+
+CREATE TABLE CALCAPP (
+    CALCID INT PRIMARY KEY,
+    CALCname NVARCHAR(50),
+    In_use NVARCHAR(50)
+);
+
+INSERT INTO CALCAPP (CALCID, CALCname, In_use)
+VALUES 
+(1, 'addCALC', 'yes'),
+(2, 'subtractCALC', 'yes'),
+(3, 'multiplyCALC', 'yes'),
+(4, 'divideCALC', 'yes'),
+(5, 'modulusCALC', 'yes'),
+(6, 'floordivisionCALC', 'yes'),
+(7, 'exponentiationCALC', 'yes'),
+(8, 'squareRootCALC', 'yes'),
+(9, 'powerCALC', 'yes'),
+(10, 'logarithmCALC', 'yes'),
+(11, 'sineCALC', 'yes'),
+(12, 'cosineCALC', 'yes'),
+(13, 'tangentCALC', 'yes'),
+(14, 'meanCALC', 'yes'),
+(16, 'modeCALC', 'yes'),
+(15, 'medianCALC', 'yes'),
+(16, 'rangeCALC', 'yes'),
+(17, 'hyperbolicsineCALC', 'yes'),
+(18, 'hyperboliccosineCALC', 'yes'),
+(19, 'hyperbolictangentCALC', 'yes'),
+(20, 'hyperbolicarcsineCALC', 'yes'),
+(21, 'hyperbolicarccosineCALC', 'yes'),
+(22, 'hyperbolicarctangentCALC', 'yes'),
+(23, 'radianconversionCALC', 'yes'),
+(24, 'degreeconversionCALC', 'yes');
+
+
+-- Query to retrieve all employees
+SELECT * FROM CALCAPP;
