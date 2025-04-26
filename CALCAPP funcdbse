@@ -1,4 +1,4 @@
--- Example SQL script to create a table and insert data
+-- Example SQL script to create a table and insert data 
 
 CREATE TABLE CALCAPP (
     CALCID INT PRIMARY KEY,
