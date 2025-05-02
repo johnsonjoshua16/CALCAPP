@@ -90,7 +90,7 @@ while choice not in ['addition', 'subtraction', 'multiplication', 'division', 'm
 print("Thank you for using CALCAPP!")
 
 print("Make sure to come back next time! Goodbye!")
-print( "((Refer a friend))".)
+print( "((Refer a friend))")
 
 ## Please let us know where improvements can be made. ##
     
