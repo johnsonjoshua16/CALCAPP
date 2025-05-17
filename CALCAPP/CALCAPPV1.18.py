@@ -1,7 +1,5 @@
 print("Welcome to CALCAPP")
-from MathMentorAI import MathMentorAI # type: ignore
-
-
+import MathMentorAI.MathMentorAI as MathMentorAI # type: ignore
 
 ## This is still very much under development and is not a finished product. ##
 
