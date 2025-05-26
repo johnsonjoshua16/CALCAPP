@@ -155,13 +155,107 @@ def perform_calculation():
     except Exception as e:
         messagebox.showerror("Error", f"An error occurred: {e}")
 
+def open_math_mentor_ai():
+    mentor = tk.Toplevel(root)
+    mentor.title("Math Mentor AI")
+    mentor.geometry("400x400")
+    mentor.configure(bg="#e3f2fd")
+
+    tk.Label(mentor, text="Math Mentor AI", font=("Arial", 18, "bold"), fg="#1976d2", bg="#e3f2fd").pack(pady=10)
+    tk.Label(mentor, text="Your personal AI math tutor for CALCAPP", font=("Arial", 12), bg="#e3f2fd").pack(pady=5)
+
+    def show_explanation():
+        calc = calc_entry.get().strip().lower()
+        explanations = {
+            "addition": "Adds two numbers together.",
+            "subtraction": "Subtracts the second number from the first.",
+            "multiplication": "Multiplies two numbers together.",
+            "division": "Divides the first number by the second.",
+            "modulus": "Finds the remainder when the first number is divided by the second.",
+            "floor division": "Performs division and rounds down to the nearest whole number.",
+            "square root": "Finds the square root of a number.",
+            "power": "Raises a number to the power of another number.",
+            "logarithm": "Finds the logarithm of a number to a specified base.",
+            "sine": "Finds the sine of an angle (in degrees).",
+            "cosine": "Finds the cosine of an angle (in degrees).",
+            "tangent": "Finds the tangent of an angle (in degrees).",
+            "mean": "Calculates the average of a list of numbers.",
+            "mode": "Finds the most frequently occurring number(s) in a list.",
+            "median": "Finds the middle value in a sorted list of numbers.",
+            "range": "Calculates the difference between the largest and smallest numbers in a list.",
+            "hyperbolic sine": "Finds the hyperbolic sine of an angle (in degrees).",
+            "hyperbolic cosine": "Finds the hyperbolic cosine of an angle (in degrees).",
+            "hyperbolic tangent": "Finds the hyperbolic tangent of an angle (in degrees).",
+            "hyperbolic arcsine": "Finds the inverse hyperbolic sine of a number.",
+            "hyperbolic arccosine": "Finds the inverse hyperbolic cosine of a number.",
+            "hyperbolic arctangent": "Finds the inverse hyperbolic tangent of a number.",
+            "radian conversion": "Converts an angle from degrees to radians.",
+            "degree conversion": "Converts an angle from radians to degrees."
+        }
+        explanation = explanations.get(calc, "Sorry, I don't have an explanation for that calculation.")
+        messagebox.showinfo("Explanation", explanation, parent=mentor)
+
+    def show_example():
+        calc = calc_entry.get().strip().lower()
+        examples = {
+            "addition": "Example: 5 + 3 = 8",
+            "subtraction": "Example: 10 - 4 = 6",
+            "multiplication": "Example: 7 * 2 = 14",
+            "division": "Example: 20 / 4 = 5",
+            "modulus": "Example: 10 % 3 = 1",
+            "floor division": "Example: 10 // 3 = 3",
+            "square root": "Example: √16 = 4",
+            "power": "Example: 2^3 = 8",
+            "logarithm": "Example: log(100, 10) = 2",
+            "sine": "Example: sin(30°) = 0.5",
+            "cosine": "Example: cos(60°) = 0.5",
+            "tangent": "Example: tan(45°) = 1",
+            "mean": "Example: Mean of [1, 2, 3] = 2",
+            "mode": "Example: Mode of [1, 2, 2, 3] = 2",
+            "median": "Example: Median of [1, 3, 2] = 2",
+            "range": "Example: Range of [1, 3, 2] = 2 (3 - 1)",
+            "hyperbolic sine": "Example: sinh(30°) = 0.547",
+            "hyperbolic cosine": "Example: cosh(30°) = 1.140",
+            "hyperbolic tangent": "Example: tanh(30°) = 0.462",
+            "hyperbolic arcsine": "Example: arcsinh(1) = 0.881",
+            "hyperbolic arccosine": "Example: arccosh(2) = 1.317",
+            "hyperbolic arctangent": "Example: arctanh(0.5) = 0.549",
+            "radian conversion": "Example: 180° = π radians",
+            "degree conversion": "Example: π radians = 180°"
+        }
+        example = examples.get(calc, "Sorry, I don't have an example for that calculation.")
+        messagebox.showinfo("Example", example, parent=mentor)
+
+    def show_general_help():
+        help_text = (
+            "General Math Help:\n"
+            "- Use addition, subtraction, multiplication, and division for basic arithmetic.\n"
+            "- Use trigonometric functions (sine, cosine, tangent) for angles.\n"
+            "- Use logarithms for exponential calculations.\n"
+            "- Use mean, median, and mode for statistics.\n"
+            "- Use hyperbolic functions for advanced math.\n"
+        )
+        messagebox.showinfo("General Math Help", help_text, parent=mentor)
+
+    tk.Label(mentor, text="Type a calculation name for help:", font=("Arial", 12), bg="#e3f2fd").pack(pady=10)
+    calc_entry = tk.Entry(mentor, font=("Arial", 12), width=25)
+    calc_entry.pack(pady=5)
+
+    tk.Button(mentor, text="Explain Calculation", font=("Arial", 12), bg="#1976d2", fg="white",
+              command=show_explanation).pack(pady=5)
+    tk.Button(mentor, text="Show Example", font=("Arial", 12), bg="#1976d2", fg="white",
+              command=show_example).pack(pady=5)
+    tk.Button(mentor, text="General Math Help", font=("Arial", 12), bg="#1976d2", fg="white",
+              command=show_general_help).pack(pady=5)
+    tk.Button(mentor, text="Close", font=("Arial", 12), command=mentor.destroy).pack(pady=15)
+
 # --- GUI Design ---
 root = tk.Tk()
-root.title("CALCAPP V1.18")
+root.title("CALCAPP V1.21")
 root.geometry("500x400")
 root.configure(bg="#f4f4f9")
 
-tk.Label(root, text="CALCAPP V1.18", font=("Arial", 20, "bold"), bg="#f4f4f9", fg="#4CAF50").pack(pady=10)
+tk.Label(root, text="CALCAPP V1.21", font=("Arial", 20, "bold"), bg="#f4f4f9", fg="#4CAF50").pack(pady=10)
 tk.Label(root, text="Choose a calculation:", font=("Arial", 14), bg="#f4f4f9").pack(pady=5)
 
 calc_options = [
@@ -177,8 +271,14 @@ dropdown = tk.OptionMenu(root, calc_var, *calc_options)
 dropdown.config(font=("Arial", 12), width=25)
 dropdown.pack(pady=10)
 
-tk.Button(root, text="Perform Calculation", font=("Arial", 14), bg="#4CAF50", fg="white",
-          command=perform_calculation).pack(pady=20)
+button_frame = tk.Frame(root, bg="#f4f4f9")
+button_frame.pack(pady=10)
+
+tk.Button(button_frame, text="Perform Calculation", font=("Arial", 14), bg="#4CAF50", fg="white",
+          command=perform_calculation).grid(row=0, column=0, padx=10)
+
+tk.Button(button_frame, text="Math Mentor AI", font=("Arial", 14), bg="#1976d2", fg="white",
+          command=open_math_mentor_ai).grid(row=0, column=1, padx=10)
 
 tk.Label(root, text="Thank you for using CALCAPP!\nMake sure to come back next time! Goodbye!\n((Refer a friend))",
          font=("Arial", 10), bg="#f4f4f9", fg="#333").pack(side="bottom", pady=20)
