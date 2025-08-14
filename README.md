@@ -60,33 +60,24 @@ Welcome to the dawn of a new era in calculations. CALCAPP is **not just a calcul
 - Optional: A virtual environment tool (`venv`, `conda`, etc.)
 
 
-### Installation
-
-```bash
-git clone https://github.com/johnsonjoshua16/CALCAPP.git
-cd CALCAPP
-python3 -m venv venv         # Recommended
-source venv/bin/activate     # macOS/Linux
-venv\Scripts\activate        # Windows
-pip install -r requirements.txt  # If this file exists
-
----
-
-```
 ### Usage
 
-Start interacting with PW via one of its Python scripts. For example:
+Launch the calculator and explore its capabilities:
 
 ```bash
-python script.py
+python CALCAPP/main.py
 
 ```
-Or another module, depending on your desired functionality:
+## Release History
 
-```bash
-python ProductA.py
+| Version          | Date         | Highlights                                                                  |
+| ---------------- | ------------ | --------------------------------------------------------------------------- |
+| **V1.21 • APP**  | May 26, 2025 | Shifted CALCAPP into app form — MMAI integration coming soon. ([GitHub][1]) |
+| **MMAI v1.16.2** | May 17, 2025 | Minor updates and bug fixes. ([GitHub][1])                                  |
+| **MMAI v1.16.1** | May 10, 2025 | MathMentorAI updated with new feature enhancements. ([GitHub][1])           |
 
-```
+[1]: https://github.com/johnsonjoshua16/CALCAPP/releases?utm_source=chatgpt.com "Releases: johnsonjoshua16/CALCAPP - GitHub"
+
 ## Contributing
 
 PW is currently under active development — your contributions are welcome! Here’s how you can help:
@@ -95,33 +86,33 @@ PW is currently under active development — your contributions are welcome! Her
 **2**.Create a feature branch:
 
 ```bash
-git checkout -b feature/MyFeature
+git checkout -b feature/YourImprovement
 
 ```
 **3**.Make and test your changes<br>
 **4**.Commit your work:
 
 ```bash
-git commit -m "Add [feature]"
+git commit -m "Add [feature or fix]"
 
 ```
 **5**.Push to your branch:
 
 ```bash
-git push origin feature/MyFeature
+git push origin feature/YourImprovement
 
 ```
-**6**.Open a pull request in the main repo
+**6**.Open a pull request and describe your changes
 
 Please include details of your changes and update this README as necessary.
 
 ## License
 
-PW is made available under the MIT License. See the (#LICENSE) file for details.
+Distributed under the MIT License. See (#LICENSE) for details.
 
 ## Contact
 
 Joshua Johnson (@johnsonjoshua16) <br>
-Aspiring AI Engineer & Software Developer <br>
+Aspiring AI Engineer & Software Developer/Engineer <br>
 London, UK <br>
 Feel free to open an issue or submit a PR if you'd like to contribute or suggest improvements!
