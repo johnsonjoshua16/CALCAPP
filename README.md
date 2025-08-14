@@ -99,7 +99,7 @@ git checkout -b feature/MyFeature
 
 ```
 **3**.Make and test your changes<br>
-**4**Commit your work:
+**4**.Commit your work:
 
 ```bash
 git commit -m "Add [feature]"
@@ -121,7 +121,7 @@ PW is made available under the MIT License. See the (#LICENSE) file for details.
 
 ## Contact
 
-Joshua Johnson (@johnsonjoshua16)
-Aspiring AI Engineer & Software Developer
-London, UK
+Joshua Johnson (@johnsonjoshua16) <br>
+Aspiring AI Engineer & Software Developer <br>
+London, UK <br>
 Feel free to open an issue or submit a PR if you'd like to contribute or suggest improvements!
