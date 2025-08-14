@@ -94,7 +94,34 @@ PW is currently under active development — your contributions are welcome! Her
 **1**.Fork the repository <br>
 **2**.Create a feature branch:
 
+```bash
+git checkout -b feature/MyFeature
 
+```
+**3**.Make and test your changes<br>
+**4**Commit your work:
 
+```bash
+git commit -m "Add [feature]"
 
+```
+**5**.Push to your branch:
 
+```bash
+git push origin feature/MyFeature
+
+```
+**6**.Open a pull request in the main repo
+
+Please include details of your changes and update this README as necessary.
+
+## License
+
+PW is made available under the MIT License. See the (#LICENSE) file for details.
+
+## Contact
+
+Joshua Johnson (@johnsonjoshua16)
+Aspiring AI Engineer & Software Developer
+London, UK
+Feel free to open an issue or submit a PR if you'd like to contribute or suggest improvements!
