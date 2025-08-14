@@ -71,9 +71,25 @@ venv\Scripts\activate        # Windows
 pip install -r requirements.txt  # If this file exists
 
 ---
-## Usage
-Launch the calculator and explore its capabilities:
+
+```
+###Usage
+
+Start interacting with PW via one of its Python scripts. For example:
 
 ```bash
-python CALCAPP/main.py
+python script.py
+
+```
+Or another module, depending on your desired functionality:
+
+```bash
+python ProductA.py
+
+
+
+
+
+
+
 
