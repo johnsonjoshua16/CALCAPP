@@ -59,6 +59,7 @@ Welcome to the dawn of a new era in calculations. CALCAPP is **not just a calcul
 - Python 3.7 or newer  
 - Optional: A virtual environment tool (`venv`, `conda`, etc.)
 
+
 ### Installation
 
 ```bash
@@ -68,3 +69,11 @@ python3 -m venv venv         # Recommended
 source venv/bin/activate     # macOS/Linux
 venv\Scripts\activate        # Windows
 pip install -r requirements.txt  # If this file exists
+
+---
+## Usage
+Launch the calculator and explore its capabilities:
+
+```bash
+python CALCAPP/main.py
+
