@@ -86,8 +86,13 @@ Or another module, depending on your desired functionality:
 ```bash
 python ProductA.py
 
+```
+## Contributing
 
+PW is currently under active development — your contributions are welcome! Here’s how you can help:
 
+**1**.Fork the repository
+**2**.Create a feature branch:
 
 
 
