@@ -108,7 +108,7 @@ Please include details of your changes and update this README as necessary.
 
 ## License
 
-Distributed under the MIT License. See (#LICENSE) for details.
+Distributed under the Apache License. See (#LICENSE) for details.
 
 ## Contact
 
