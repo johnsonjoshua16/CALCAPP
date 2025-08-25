@@ -1,4 +1,4 @@
-# CALCAPPP
+# CALCAPP
 
 [![License: Apache](https://img.shields.io/badge/License-Apache-yellow.svg)](LICENSE)  
 [![Status: In Development](https://img.shields.io/badge/status-in--development-orange.svg)]()
