@@ -1,4 +1,4 @@
-print("Welcome to CALCAPP")
+print("Hello, Welcome to CALCAPP")
 import MathMentorAI.MathMentorAI as MathMentorAI # type: ignore
 import tkinter as tk
 from tkinter import messagebox
