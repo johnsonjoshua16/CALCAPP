@@ -27,7 +27,7 @@
 ## About
 
 Welcome to the dawn of a new era in calculations. CALCAPP is **not just a calculator**—it’s a revolutionary leap in computational technology, crafted to forever redefine how you approach mathematics and problem-solving.  
-:contentReference[oaicite:1]{index=1}
+
 
 ---
 
