@@ -39,7 +39,7 @@ Welcome to the dawn of a new era in calculations. CALCAPP is **not just a calcul
 - **Sleek UI & Customization** – Ultra-HD touchscreen, multiple themes, haptic feedback, and ambient-aware display.  
 - **Energy-Efficient Design** – Quantum-enhanced processing, energy-harvesting tech—designed to run longer, smarter.  
 - **Secure & Ethical** – High-grade encryption and responsibly sourced components.  
-:contentReference[oaicite:2]{index=2}
+
 
 ---
 
@@ -48,7 +48,6 @@ Welcome to the dawn of a new era in calculations. CALCAPP is **not just a calcul
 - **Python** – Core computational engine.  
 - **HTML** – Interface elements and UI structure.  
 - (Potentially) **SQL** – For function or usage history storage.  
-:contentReference[oaicite:3]{index=3}
 
 ---
 
