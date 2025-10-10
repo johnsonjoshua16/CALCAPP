@@ -112,6 +112,6 @@ Distributed under the Apache License. See (#LICENSE) for details.
 ## Contact
 
 Joshua Johnson (@johnsonjoshua16) <br>
-Aspiring AI Engineer & Software Engineer/Developer <br>
+Staple Data Scientist<br>
 London, UK <br>
 Feel free to open an issue or submit a PR if you'd like to contribute or suggest improvements!
