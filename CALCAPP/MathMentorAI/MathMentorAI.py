@@ -91,6 +91,7 @@ def example_input(calc):
         print(f"{calc.capitalize()} Example: {examples[calc]}")
     else:
         print("Sorry, I don't have an example for that calculation.")
+    
 
 # Call Math Mentor AI
 math_mentor_ai()

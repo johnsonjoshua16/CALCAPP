@@ -1,5 +1,5 @@
 print("Hello, Welcome to CALCAPP")
-import MathMentorAI.MathMentorAI as MathMentorAI # type: ignore
+import MathMentorAI.MathMentorAI as MMAI # type: ignore
 import tkinter as tk
 from tkinter import messagebox
 
@@ -10,76 +10,76 @@ print("The Order of Operations is addition, subtraction, multiplication, divisio
 print("hyperbolic sine, hyperbolic cosine, hyperbolic tangent, hyperbolic arcsine, hyperbolic arccosine, hyperbolic arctangent, radian conversion and degree conversion.")
 choice = input("Please choose a calculation from the list above: ")
 
-if choice == 'addition':
+if choice == 'addition' or choice == 'add':
     import CALCAPP.addCALC as addCALC # type: ignore
     
-if choice == 'subtraction':
+if choice == 'subtraction' or choice == 'subtract':
     import CALCAPP.subtractCALC as subtractCALC # type: ignore
     
-if choice == 'multiplication':
+if choice == 'multiplication' or choice == 'multiply':
     import CALCAPP.multiplyCALC as multiplyCALC # type: ignore
     
-if choice == 'division':
+if choice == 'division' or choice == 'divide':
     import CALCAPP.divideCALC as divideCALC # type: ignore
     
-if choice == 'modulus':
+if choice == 'modulus' or choice == 'mod':
     import CALCAPP.modulusCALC as modulusCALC # type: ignore
     
-if choice == 'floor division':
+if choice == 'floor division' or choice == 'floor division':
     import CALCAPP.floordivisionCALC as floordivisionCALC # type: ignore
     
-if choice == 'square root':
+if choice == 'square root' or choice == 'squareroot':
     import CALCAPP.squarerootCALC as squarerootCALC # type: ignore
     
-if choice == 'power':
+if choice == 'power' or choice == 'exponentiation':
     import CALCAPP.powerCALC as powerCALC # type: ignore
     
-if choice == 'logarithm':
+if choice == 'logarithm' or choice == 'log':
     import CALCAPP.logarithmCALC as logarithmCALC # type: ignore
     
-if choice == 'sine':
+if choice == 'sine' or choice == 'sin':
     import CALCAPP.sineCALC as sineCALC # type: ignore
     
-if choice == 'cosine':
+if choice == 'cosine' or choice == 'cos':
     import CALCAPP.cosineCALC as cosineCALC # type: ignore
     
-if choice == 'tangent':
+if choice == 'tangent' or choice == 'tan':
     import CALCAPP.tangentCALC as tangentCALC # type: ignore
     
-if choice == 'mean':
+if choice == 'mean' or choice == 'average':
     import CALCAPP.meanCALC as meanCALC # type: ignore
     
-if choice == 'mode':
+if choice == 'mode' or choice == 'most frequent':
     import CALCAPP.modeCALC as modeCALC # type: ignore
 
-if choice == 'median':
+if choice == 'median' or choice == 'middle value':
     import CALCAPP.medianCALC as medianCALC # type: ignore
     
-if choice == 'range':
+if choice == 'range' or choice == 'difference between largest and smallest':
     import CALCAPP.rangeCALC as rangeCALC # type: ignore
     
-if choice == 'hyperbolic sine':
+if choice == 'hyperbolic sine' or choice == 'sinh':
     import CALCAPP.hyperbolicsineCALC as hyperbolicsineCALC # type: ignore
     
-if choice == 'hyperbolic cosine':
+if choice == 'hyperbolic cosine' or choice == 'cosh':
     import CALCAPP.hyperboliccosineCALC as hyperboliccosineCALC # type: ignore
     
-if choice == 'hyperbolic tangent':
+if choice == 'hyperbolic tangent' or choice == 'tanh':
     import CALCAPP.hyperbolictangentCALC as hyperbolictangentCALC # type: ignore
     
-if choice == 'hyperbolic arcsine':
+if choice == 'hyperbolic arcsine' or choice == 'arcsinh':
     import CALCAPP.hyperbolicarcsineCALC as hyperbolicarcsineCALC # type: ignore
     
-if choice == 'hyperbolic arccosine':
+if choice == 'hyperbolic arccosine' or choice == 'arccosh':
     import CALCAPP.hyperbolicarccosineCALC as hyperbolicarccosineCALC # type: ignore
     
-if choice == 'hyperbolic arctangent':
+if choice == 'hyperbolic arctangent' or choice == 'arctanh':
     import CALCAPP.hyperbolicarctangentCALC as hyperbolicarctangentCALC # type: ignore
     
-if choice == 'radian conversion':
+if choice == 'radian conversion' or choice == 'radian conversion':
     import CALCAPP.radianconversionCALC as radianconversionCALC # type: ignore
     
-if choice == 'degree conversion':
+if choice == 'degree conversion' or choice == 'degree conversion':
     import CALCAPP.degreeconversionCALC as degreeconversionCALC # type: ignore
 
 
