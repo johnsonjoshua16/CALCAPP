@@ -11,5 +11,6 @@ result = cosine_number(angle)
 
 # Display the result
 print(f"The cosine of {angle} degrees is {result}.")
+exit()
 
 ## Please let us know where improvements can be made. ##

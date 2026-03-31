@@ -11,3 +11,4 @@ result = mean_numbers(numbers)
 
 #   Display the result
 print("The mean of the numbers is:", result)
+exit()

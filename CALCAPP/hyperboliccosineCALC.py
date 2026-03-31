@@ -13,3 +13,4 @@ result = hyperbolic_cosine_number(angle)
 
 #   Display the result
 print(f"The hyperbolic cosine of {angle} degrees is {result}.")
+exit()

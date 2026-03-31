@@ -12,3 +12,4 @@ result = hyperbolic_arctangent_number(angle)
 
 # Display the result
 print(f"The hyperbolic arctangent of {angle} degrees is {result}.")
+e

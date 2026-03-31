@@ -14,5 +14,6 @@ result = divide_numbers(number1, number2)
 
 # Display the result
 print(f"The quotient of {number1} and {number2} is {result}.")
+exit()
 
 ## Please let us know where improvements can be made. ##

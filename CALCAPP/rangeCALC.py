@@ -11,3 +11,4 @@ result = range_numbers(numbers)
 # Display the result
 
 print(f"The range of the numbers is {result}.")
+exit()

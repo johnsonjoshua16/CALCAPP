@@ -12,3 +12,4 @@ result = hyperbolic_arcsine_number(angle)
 
 # Display the result
 print(f"The hyperbolic arcsine of {angle} degrees is {result}.")
+exit()

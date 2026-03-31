@@ -1,5 +1,5 @@
 print("Hello, Welcome to CALCAPP")
-import MathMentorAI.MathMentorAI as MMAI # type: ignore
+import MathMentorAI as MMAI
 import tkinter as tk
 from tkinter import messagebox
 
@@ -11,76 +11,78 @@ print("hyperbolic sine, hyperbolic cosine, hyperbolic tangent, hyperbolic arcsin
 choice = input("Please choose a calculation from the list above: ")
 
 if choice == 'addition' or choice == 'add':
-    import CALCAPP.addCALC as addCALC # type: ignore
+    import addCALC as addCALC
     
-if choice == 'subtraction' or choice == 'subtract':
-    import CALCAPP.subtractCALC as subtractCALC # type: ignore
+elif choice == 'subtraction' or choice == 'subtract':
+    import subtractCALC as subtractCALC
     
-if choice == 'multiplication' or choice == 'multiply':
-    import CALCAPP.multiplyCALC as multiplyCALC # type: ignore
+elif choice == 'multiplication' or choice == 'multiply':
+    import multiplyCALC as multiplyCALC
     
-if choice == 'division' or choice == 'divide':
-    import CALCAPP.divideCALC as divideCALC # type: ignore
+elif choice == 'division' or choice == 'divide':
+    import divideCALC as divideCALC
     
-if choice == 'modulus' or choice == 'mod':
-    import CALCAPP.modulusCALC as modulusCALC # type: ignore
+elif choice == 'modulus' or choice == 'mod':
+    import modulusCALC as modulusCALC
     
-if choice == 'floor division' or choice == 'floor division':
-    import CALCAPP.floordivisionCALC as floordivisionCALC # type: ignore
+elif choice == 'floor division' or choice == 'floor division':
+    import floordivisionCALC as floordivisionCALC
     
-if choice == 'square root' or choice == 'squareroot':
-    import CALCAPP.squarerootCALC as squarerootCALC # type: ignore
+elif choice == 'square root' or choice == 'squareroot':
+    import squarerootCALC as squarerootCALC
     
-if choice == 'power' or choice == 'exponentiation':
-    import CALCAPP.powerCALC as powerCALC # type: ignore
+elif choice == 'power' or choice == 'exponentiation':
+    import powerCALC as powerCALC
     
-if choice == 'logarithm' or choice == 'log':
-    import CALCAPP.logarithmCALC as logarithmCALC # type: ignore
+elif choice == 'logarithm' or choice == 'log':
+    import logarithmCALC as logarithmCALC
     
-if choice == 'sine' or choice == 'sin':
-    import CALCAPP.sineCALC as sineCALC # type: ignore
+elif choice == 'sine' or choice == 'sin':
+    import sineCALC as sineCALC
     
-if choice == 'cosine' or choice == 'cos':
-    import CALCAPP.cosineCALC as cosineCALC # type: ignore
+elif choice == 'cosine' or choice == 'cos':
+    import cosineCALC as cosineCALC
     
-if choice == 'tangent' or choice == 'tan':
-    import CALCAPP.tangentCALC as tangentCALC # type: ignore
+elif choice == 'tangent' or choice == 'tan':
+    import tangentCALC as tangentCALC
     
-if choice == 'mean' or choice == 'average':
-    import CALCAPP.meanCALC as meanCALC # type: ignore
+elif choice == 'mean' or choice == 'average':
+    import meanCALC as meanCALC
     
-if choice == 'mode' or choice == 'most frequent':
-    import CALCAPP.modeCALC as modeCALC # type: ignore
+elif choice == 'mode' or choice == 'most frequent':
+    import modeCALC as modeCALC # type: ignore
 
-if choice == 'median' or choice == 'middle value':
-    import CALCAPP.medianCALC as medianCALC # type: ignore
+elif choice == 'median' or choice == 'middle value':
+    import medianCALC as medianCALC # type: ignore
     
-if choice == 'range' or choice == 'difference between largest and smallest':
-    import CALCAPP.rangeCALC as rangeCALC # type: ignore
+elif choice == 'range' or choice == 'difference between largest and smallest':
+    import rangeCALC as rangeCALC # type: ignore
     
-if choice == 'hyperbolic sine' or choice == 'sinh':
-    import CALCAPP.hyperbolicsineCALC as hyperbolicsineCALC # type: ignore
+elif choice == 'hyperbolic sine' or choice == 'sinh':
+    import hyperbolicsineCALC as hyperbolicsineCALC # type: ignore
     
-if choice == 'hyperbolic cosine' or choice == 'cosh':
-    import CALCAPP.hyperboliccosineCALC as hyperboliccosineCALC # type: ignore
+elif choice == 'hyperbolic cosine' or choice == 'cosh':
+    import hyperboliccosineCALC as hyperboliccosineCALC # type: ignore
     
-if choice == 'hyperbolic tangent' or choice == 'tanh':
-    import CALCAPP.hyperbolictangentCALC as hyperbolictangentCALC # type: ignore
+elif choice == 'hyperbolic tangent' or choice == 'tanh':
+    import hyperbolictangentCALC as hyperbolictangentCALC # type: ignore
     
-if choice == 'hyperbolic arcsine' or choice == 'arcsinh':
-    import CALCAPP.hyperbolicarcsineCALC as hyperbolicarcsineCALC # type: ignore
+elif choice == 'hyperbolic arcsine' or choice == 'arcsinh':
+    import hyperbolicarcsineCALC as hyperbolicarcsineCALC # type: ignore
     
-if choice == 'hyperbolic arccosine' or choice == 'arccosh':
-    import CALCAPP.hyperbolicarccosineCALC as hyperbolicarccosineCALC # type: ignore
+elif choice == 'hyperbolic arccosine' or choice == 'arccosh':
+    import hyperbolicarccosineCALC as hyperbolicarccosineCALC # type: ignore
     
-if choice == 'hyperbolic arctangent' or choice == 'arctanh':
-    import CALCAPP.hyperbolicarctangentCALC as hyperbolicarctangentCALC # type: ignore
+elif choice == 'hyperbolic arctangent' or choice == 'arctanh':
+    import hyperbolicarctangentCALC as hyperbolicarctangentCALC # type: ignore
     
-if choice == 'radian conversion' or choice == 'radian conversion':
-    import CALCAPP.radianconversionCALC as radianconversionCALC # type: ignore
+elif choice == 'radian conversion' or choice == 'radian conversion':
+    import radianconversionCALC as radianconversionCALC # type: ignore
     
-if choice == 'degree conversion' or choice == 'degree conversion':
-    import CALCAPP.degreeconversionCALC as degreeconversionCALC # type: ignore
+elif choice == 'degree conversion' or choice == 'degree conversion':
+    import degreeconversionCALC as degreeconversionCALC # type: ignore
+else:
+    print("Invalid choice. Please try again.")
 
 
 while choice not in ['addition', 'subtraction', 'multiplication', 'division', 'modulus', 'floor division', 'square root', 'power', 'logarithm', 'sine', 'cosine', 'tangent', 'mean', 'mode', 'median', 'range', 'hyperbolic sine', 'hyperbolic cosine', 'hyperbolic tangent', 'hyperbolic arcsine', 'hyperbolic arccosine', 'radian conversion', 'degree conversion']:
@@ -95,62 +97,63 @@ print( "((Refer a friend))")
 ## Please let us know where improvements can be made. ##
 
 def perform_calculation():
-    choice = calc_var.get()
+    choice = calc_var.get() # type: ignore
     if choice == "":
         messagebox.showwarning("No Selection", "Please choose a calculation.")
         return
     try:
         if choice == 'addition':
-            import CALCAPP.addCALC as addCALC
+            import addCALC as addCALC
         elif choice == 'subtraction':
-            import CALCAPP.subtractCALC as subtractCALC
+            import subtractCALC as subtractCALC
         elif choice == 'multiplication':
-            import CALCAPP.multiplyCALC as multiplyCALC
+            import multiplyCALC as multiplyCALC
         elif choice == 'division':
-            import CALCAPP.divideCALC as divideCALC
+            import divideCALC as divideCALC
         elif choice == 'modulus':
-            import CALCAPP.modulusCALC as modulusCALC
+            import modulusCALC as modulusCALC
         elif choice == 'floor division':
-            import CALCAPP.floordivisionCALC as floordivisionCALC
+            import floordivisionCALC as floordivisionCALC
         elif choice == 'square root':
-            import CALCAPP.squarerootCALC as squarerootCALC
+            import squarerootCALC as squarerootCALC
         elif choice == 'power':
-            import CALCAPP.powerCALC as powerCALC
+            import powerCALC as powerCALC
         elif choice == 'logarithm':
-            import CALCAPP.logarithmCALC as logarithmCALC
+            import logarithmCALC as logarithmCALC
         elif choice == 'sine':
-            import CALCAPP.sineCALC as sineCALC
+            import sineCALC as sineCALC
         elif choice == 'cosine':
-            import CALCAPP.cosineCALC as cosineCALC
+            import cosineCALC as cosineCALC
         elif choice == 'tangent':
-            import CALCAPP.tangentCALC as tangentCALC
+            import tangentCALC as tangentCALC
         elif choice == 'mean':
-            import CALCAPP.meanCALC as meanCALC
+            import meanCALC as meanCALC
         elif choice == 'mode':
-            import CALCAPP.modeCALC as modeCALC
+            import modeCALC as modeCALC
         elif choice == 'median':
-            import CALCAPP.medianCALC as medianCALC
+            import medianCALC as medianCALC
         elif choice == 'range':
-            import CALCAPP.rangeCALC as rangeCALC
+            import rangeCALC as rangeCALC
         elif choice == 'hyperbolic sine':
-            import CALCAPP.hyperbolicsineCALC as hyperbolicsineCALC
+            import hyperbolicsineCALC as hyperbolicsineCALC
         elif choice == 'hyperbolic cosine':
-            import CALCAPP.hyperboliccosineCALC as hyperboliccosineCALC
+            import hyperboliccosineCALC as hyperboliccosineCALC
         elif choice == 'hyperbolic tangent':
-            import CALCAPP.hyperbolictangentCALC as hyperbolictangentCALC
+            import hyperbolictangentCALC as hyperbolictangentCALC
         elif choice == 'hyperbolic arcsine':
-            import CALCAPP.hyperbolicarcsineCALC as hyperbolicarcsineCALC
+            import hyperbolicarcsineCALC as hyperbolicarcsineCALC
         elif choice == 'hyperbolic arccosine':
-            import CALCAPP.hyperbolicarccosineCALC as hyperbolicarccosineCALC
+            import hyperbolicarccosineCALC as hyperbolicarccosineCALC
         elif choice == 'hyperbolic arctangent':
-            import CALCAPP.hyperbolicarctangentCALC as hyperbolicarctangentCALC
+            import hyperbolicarctangentCALC as hyperbolicarctangentCALC
         elif choice == 'radian conversion':
-            import CALCAPP.radianconversionCALC as radianconversionCALC
+            import radianconversionCALC as radianconversionCALC
         elif choice == 'degree conversion':
-            import CALCAPP.degreeconversionCALC as degreeconversionCALC
+            import degreeconversionCALC as degreeconversionCALC
         else:
             messagebox.showerror("Invalid Choice", "Invalid calculation selected.")
             return
+        
         messagebox.showinfo("Success", f"{choice.title()} module imported and executed!")
     except Exception as e:
         messagebox.showerror("Error", f"An error occurred: {e}")
@@ -237,50 +240,7 @@ def open_math_mentor_ai():
         )
         messagebox.showinfo("General Math Help", help_text, parent=mentor)
 
-    tk.Label(mentor, text="Type a calculation name for help:", font=("Arial", 12), bg="#e3f2fd").pack(pady=10)
-    calc_entry = tk.Entry(mentor, font=("Arial", 12), width=25)
-    calc_entry.pack(pady=5)
 
-    tk.Button(mentor, text="Explain Calculation", font=("Arial", 12), bg="#1976d2", fg="white",
-              command=show_explanation).pack(pady=5)
-    tk.Button(mentor, text="Show Example", font=("Arial", 12), bg="#1976d2", fg="white",
-              command=show_example).pack(pady=5)
-    tk.Button(mentor, text="General Math Help", font=("Arial", 12), bg="#1976d2", fg="white",
-              command=show_general_help).pack(pady=5)
-    tk.Button(mentor, text="Close", font=("Arial", 12), command=mentor.destroy).pack(pady=15)
 
-# --- GUI Design ---
-root = tk.Tk()
-root.title("CALCAPP V1.21")
-root.geometry("500x400")
-root.configure(bg="#f4f4f9")
 
-tk.Label(root, text="CALCAPP V1.21", font=("Arial", 20, "bold"), bg="#f4f4f9", fg="#4CAF50").pack(pady=10)
-tk.Label(root, text="Choose a calculation:", font=("Arial", 14), bg="#f4f4f9").pack(pady=5)
 
-calc_options = [
-    'addition', 'subtraction', 'multiplication', 'division', 'modulus', 'floor division',
-    'square root', 'power', 'logarithm', 'sine', 'cosine', 'tangent', 'mean', 'mode',
-    'median', 'range', 'hyperbolic sine', 'hyperbolic cosine', 'hyperbolic tangent',
-    'hyperbolic arcsine', 'hyperbolic arccosine', 'hyperbolic arctangent',
-    'radian conversion', 'degree conversion'
-]
-calc_var = tk.StringVar(value="")
-
-dropdown = tk.OptionMenu(root, calc_var, *calc_options)
-dropdown.config(font=("Arial", 12), width=25)
-dropdown.pack(pady=10)
-
-button_frame = tk.Frame(root, bg="#f4f4f9")
-button_frame.pack(pady=10)
-
-tk.Button(button_frame, text="Perform Calculation", font=("Arial", 14), bg="#4CAF50", fg="white",
-          command=perform_calculation).grid(row=0, column=0, padx=10)
-
-tk.Button(button_frame, text="Math Mentor AI", font=("Arial", 14), bg="#1976d2", fg="white",
-          command=open_math_mentor_ai).grid(row=0, column=1, padx=10)
-
-tk.Label(root, text="Thank you for using CALCAPP!\nMake sure to come back next time! Goodbye!\n((Refer a friend))",
-         font=("Arial", 10), bg="#f4f4f9", fg="#333").pack(side="bottom", pady=20)
-
-root.mainloop()

@@ -13,3 +13,4 @@ result = hyperbolic_tangent_number(angle)
 
 # Display the result
 print(f"The hyperbolic tangent of {angle} degrees is {result}.")
+exit()

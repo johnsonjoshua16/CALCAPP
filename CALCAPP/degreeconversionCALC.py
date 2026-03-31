@@ -12,3 +12,4 @@ result = degree_conversion(angle)
 
 # Display the result
 print(f"The angle {angle} radians in degrees is {result}.")
+exit()

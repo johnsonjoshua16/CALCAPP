@@ -12,3 +12,4 @@ result = hyperbolic_sine_number(angle)
 
 # Display the result
 print(f"The hyperbolic sine of {angle} degrees is {result}.")
+exit()

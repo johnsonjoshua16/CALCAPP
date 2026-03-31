@@ -18,3 +18,4 @@ result = mode_numbers(numbers)
 
 # Display the result
 print(f"The mode of the numbers is {result}.")
+exit()

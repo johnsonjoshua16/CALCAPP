@@ -16,3 +16,4 @@ result = median_numbers(numbers)
 
 # Display the result
 print(f"The median of the numbers is {result}.")
+exit()
