@@ -159,7 +159,7 @@ def perform_calculation():
         messagebox.showerror("Error", f"An error occurred: {e}")
 
 def open_math_mentor_ai():
-    mentor = tk.Toplevel(root)
+    mentor = tk.Toplevel()
     mentor.title("Math Mentor AI")
     mentor.geometry("400x400")
     mentor.configure(bg="#e3f2fd")
