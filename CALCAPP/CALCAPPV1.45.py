@@ -164,9 +164,6 @@ def open_math_mentor_ai():
     mentor.geometry("400x400")
     mentor.configure(bg="#e3f2fd")
 
-    tk.Label(mentor, text="Math Mentor AI", font=("Arial", 18, "bold"), fg="#1976d2", bg="#e3f2fd").pack(pady=10)
-    tk.Label(mentor, text="Your personal AI math tutor for CALCAPP", font=("Arial", 12), bg="#e3f2fd").pack(pady=5)
-
     def show_explanation():
         calc = calc_entry.get().strip().lower()
         explanations = {
